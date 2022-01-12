@@ -13,7 +13,7 @@ dbConnection();
 app.use(express.json({ limit: "50mb" }));
 app.use(morgan("dev"));
 
-app.use("/api/users/", subRoute);
+app.use("/api/subscribe/", subRoute);
 
 // root route
 app.get("/", (req, res) => {
