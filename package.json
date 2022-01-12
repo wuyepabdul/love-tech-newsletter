@@ -5,7 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon backend/server"
+    "start": "node backend/server", 
+    "dev": "nodemon backend/server"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,8 @@
   "devDependencies": {
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "14.18.0"
   }
 }
